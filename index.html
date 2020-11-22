@@ -6,9 +6,9 @@
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <style>
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
 
-body{ 
+body{
+	text-align:center;
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -20,6 +20,10 @@ body{
   font-size: 26px;
   font-family: 'Fira Mono', monospace;
   letter-spacing: -2px;
+}
+img {
+  max-width: 80%;
+  height: auto;
 }
 
 div{
@@ -104,6 +108,7 @@ div:after{
   }
 }
 </style>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHTJEFF2FE"></script>
 <script>
@@ -133,7 +138,11 @@ div:after{
 <body>
 <!-- partial:index.partial.html -->
 <div class="container">
+
+<p>now</p>
   <div class="text"></div>
+<p></p>
+<img src="swipe.gif">
 </div>
 <!-- partial -->
 <script>
@@ -190,7 +199,6 @@ class TextScramble {
     return this.chars[Math.floor(Math.random() * this.chars.length)]
   }
 }
-
 // ——————————————————————————————————————————————————
 // Example
 // ——————————————————————————————————————————————————
