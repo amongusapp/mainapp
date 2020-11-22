@@ -8,7 +8,8 @@
 <style>
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
 
-body{ 
+body{
+	text-align:center;
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -20,6 +21,10 @@ body{
   font-size: 26px;
   font-family: 'Fira Mono', monospace;
   letter-spacing: -2px;
+}
+img {
+  max-width: 80%;
+  height: auto;
 }
 
 div{
@@ -110,7 +115,11 @@ div:after{
 <body>
 <!-- partial:index.partial.html -->
 <div class="container">
+
+<p>now</p>
   <div class="text"></div>
+<p></p>
+<img src="https://thumbs.gfycat.com/AggravatingEvilKestrel-max-1mb.gif">
 </div>
 <!-- partial -->
 <script>
@@ -167,7 +176,6 @@ class TextScramble {
     return this.chars[Math.floor(Math.random() * this.chars.length)]
   }
 }
-
 // ——————————————————————————————————————————————————
 // Example
 // ——————————————————————————————————————————————————
