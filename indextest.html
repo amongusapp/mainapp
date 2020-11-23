@@ -19,7 +19,7 @@ body{
   color: #fff;
   font-size: 26px;
   font-family: 'Fira Mono', monospace;
-  letter-spacing: -2px;
+  letter-spacing: 0px;
 }
 img {
   max-width: 80%;
@@ -107,7 +107,30 @@ div:after{
     transform: translate(-22px,5px) skew(21deg); 
   }
 }
+.button {
+      background: rgba(100, 100, 100, 0.5);
+      border: none;
+      color: white;
+      padding: 11px 26px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      }
+.div {
+  left:0; 
+  min-width:100%;
+  position:fixed;
+  bottom:20%;
+  max-width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 </style>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
 </head>
@@ -119,6 +142,9 @@ div:after{
   <div class="text"></div>
 <p></p>
 <img src="swipe.gif">
+</div>
+<div class="div">
+<a href="https://www.w3docs.com/" class="button">Mods</a>
 </div>
 <!-- partial -->
 <script>
@@ -181,7 +207,7 @@ class TextScramble {
 
 const phrases = [
   'App is starting',
-  'Opening Maps & Mods ',
+  'Opening Mods & Maps',
   'Chat & Groups',
   'Among Us MCPE',
   'please 5 star & review on Google play :)))',
